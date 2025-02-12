@@ -26,9 +26,7 @@ class HomePage extends StatelessWidget {
                   onTap: (){
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                        builder: (context) => Network(data: myData[index])
-                        ) 
+                      MaterialPageRoute(builder: (context) => Network(data: myData[index])),
                     );
                   },
                   title: Text(myData[index].name),
@@ -51,10 +49,6 @@ class HomePage extends StatelessWidget {
     return AppBar(
       backgroundColor: Colors.deepPurple[500],
       elevation: 0,
-      leading: Icon(
-        IconlyLight.arrow_left_2,
-        color: Colors.white,
-        ),
       title: Text('Settings', style: GoogleFonts.aBeeZee(
         fontSize: 15,
         color: Colors.white,

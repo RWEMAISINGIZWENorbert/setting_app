@@ -46,7 +46,7 @@ class SettingsData {
       //   },
       // ];
        List<SettingsData> data = [];
-        
+               
         data.add(SettingsData(name: 'Network connectivity', color: Colors.blue, icon:  Icon(Icons.network_cell_outlined, color: Colors.white,), ), );
         data.add(SettingsData(name: 'Activities', color: Colors.amber, icon:  Icon(IconlyLight.activity, color: Colors.white,), ), );
         data.add(SettingsData(name: 'Devices', color: Colors.red, icon:  Icon(Icons.device_hub, color: Colors.white,), ), );
