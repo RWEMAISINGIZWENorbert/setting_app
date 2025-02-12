@@ -14,6 +14,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp( 
+      // routes: {
+      //   '/': (context) => HomePage(),
+      // },
       color: Colors.deepPurple[200],
       debugShowCheckedModeBanner: false,
       home: HomePage(),
