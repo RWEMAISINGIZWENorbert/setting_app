@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:iconly/iconly.dart';
 import 'package:setting_app/pages/Home.dart';
+import 'package:setting_app/pages/network.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp( 
-      // routes: {
-      //   '/': (context) => HomePage(),
-      // },
+      routes: {
+        // '/': (context) => HomePage(),
+        // '/network': (context) => Network(),
+      },
       color: Colors.deepPurple[200],
       debugShowCheckedModeBanner: false,
       home: HomePage(),
